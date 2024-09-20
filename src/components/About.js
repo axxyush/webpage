@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 
 function About() {
   return (
@@ -35,15 +36,14 @@ function About() {
           </div>
           <div className="col-lg-6">
             <p className="lead slideup">
-              Founded in 2016, Lucendi, Inc. is a leading innovator and
-              developer of AI-enabled smart measurement platforms for
-              cost-effective and high-performance micro-object detection and
-              characterization. Lucendi technology portfolio and IP are based on
-              computational microscopy and holographic imaging coupled with
-              innovative image processing, big data and machine learning
-              approaches. Lucendi’s core technologies are cost-effective, robust
-              and field-portable, which make them adaptable to a wide variety of
-              applications.
+              Auspex Medix LLC is a pioneering health technology company that
+              specializes in smart health solutions for all age groups, from
+              children to seniors. Founded as a spin-off from the University at
+              Buffalo, we leverage cutting-edge research to develop advanced
+              mobile health sensors, wearable devices, AI-powered applications,
+              and secure health data management systems. Our mission is to
+              enhance healthcare through innovative technology, improving
+              well-being across all stages of life.
             </p>
           </div>
         </div>
@@ -58,17 +58,13 @@ function About() {
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-lg-6">
             <p className="lead slideup">
-              Lucendi is currently expanding its development team and is seeking
-              ambitious, talented and resourceful individuals to fill in several
-              open positions at different levels within our dynamic team.
-              Lucendi’s current hiring priorities are software development
-              engineers experienced in any of the following areas:
-              <br />
-              Lucendi is an organically growing company offering employees
-              opportunities for personal development and growth, as well as
-              competitive compensation. If you are interested to apply or learn
-              more about this opportunity, please send your CV/resume or
-              questions to
+              Our technology combines advanced mobile and wearable health
+              sensors with artificial intelligence to provide real-time health
+              monitoring and diagnostics. These solutions are designed to
+              improve patient outcomes through early detection, personalized
+              care, and continuous monitoring. We prioritize data security,
+              implementing robust management systems that adhere to the highest
+              standards of privacy and compliance.
             </p>
           </div>
           <div className="col-10 col-sm-8 col-lg-6">
@@ -84,149 +80,43 @@ function About() {
           </div>
         </div>
       </div>
-      {/* Contact********************************* */}
-      <footer className="bg-dark slideup text-white py-5">
-        <div className="container">
-          <div className="row">
-            <div className="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
-              <ul className="nav flex-column">
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-white">
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-white">
-                    Features
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-white">
-                    Pricing
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-white">
-                    FAQs
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-white">
-                    About
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
-              <ul className="nav flex-column">
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-white">
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-white">
-                    Features
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-white">
-                    Pricing
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-white">
-                    FAQs
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-white">
-                    About
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
-              <ul className="nav flex-column">
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-white">
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-white">
-                    Features
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-white">
-                    Pricing
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-white">
-                    FAQs
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-white">
-                    About
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="col-md-5 offset-md-1 mb-3">
-              <form>
-                <h5>Subscribe to our newsletter</h5>
-                <p>Monthly digest of what's new and exciting from us.</p>
-                <div className="d-flex flex-column flex-sm-row w-100 gap-2">
-                  <label htmlFor="newsletter1" className="visually-hidden">
-                    Email address
-                  </label>
-                  <input
-                    id="newsletter1"
-                    type="text"
-                    className="form-control"
-                    placeholder="Email address"
-                  />
-                  <button className="btn btn-primary" type="button">
-                    Subscribe
-                  </button>
-                </div>
-              </form>
-            </div>
+
+      {/* ********************************* */}
+      <div
+        style={{ backgroundColor: "white" }}
+        className="align-item-center d-flex px-5"
+      >
+        <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div className="col-10 col-sm-8 col-lg-6">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1679082307672-02ebf0ba9b9a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              className="d-block slideup mx-lg-auto img-fluid"
+              alt="Bootstrap Themes"
+              width={500}
+              height={300}
+              loading="lazy"
+              style={{ borderRadius: "50%" }}
+            />
           </div>
-          <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top border-secondary">
-            <p>© 2024 Company, Inc. All rights reserved.</p>
-            <ul className="list-unstyled d-flex mb-0">
-              <li className="ms-3">
-                <a className="text-white" href="#">
-                  <svg className="bi" width={24} height={24}>
-                    <use xlinkHref="#twitter" />
-                  </svg>
-                </a>
-              </li>
-              <li className="ms-3">
-                <a className="text-white" href="#">
-                  <svg className="bi" width={24} height={24}>
-                    <use xlinkHref="#instagram" />
-                  </svg>
-                </a>
-              </li>
-              <li className="ms-3">
-                <a className="text-white" href="#">
-                  <svg className="bi" width={24} height={24}>
-                    <use xlinkHref="#facebook" />
-                  </svg>
-                </a>
-              </li>
-            </ul>
+          <div className="col-lg-6">
+            <p className="lead slideup">
+              At Auspex Medix LLC, we envision a future where advanced health
+              services are affordable and accessible to all. We are committed to
+              empowering clinical researchers and end-users with AI-powered
+              health solutions that enhance diagnostics, monitoring, and overall
+              well-being. By leveraging mobile and wearable technologies, we aim
+              to bridge the gap between quality healthcare and those who need it
+              most. Our goal is to democratize health services, ensuring that
+              everyone can benefit from personalized, real-time health
+              monitoring and secure, data-driven insights, ultimately improving
+              lives on a global scale.
+            </p>
           </div>
         </div>
-      </footer>
+      </div>
+
+      {/* Contact********************************* */}
+      <Footer />
     </>
   );
 }

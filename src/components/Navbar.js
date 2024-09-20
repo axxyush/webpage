@@ -22,7 +22,7 @@ function Navbar() {
     >
       <div className="container-fluid">
         <a className={`navbar-brand ${sticky ? "fs-4" : "fs-2"}`} href="/">
-          Webpage
+          Auspex Medix
         </a>
         <button
           className="navbar-toggler"
@@ -38,19 +38,11 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a
-                className={`nav-link ${sticky ? "fs-6" : "fs-5"}`}
-                aria-current="page"
-                href="#"
-              >
+              <a className={`nav-link ${sticky ? "fs-6" : "fs-5"}`} href="#">
                 About
               </a>
             </li>
-            <li className="nav-item">
-              <a className={`nav-link ${sticky ? "fs-6" : "fs-5"}`} href="#">
-                Technology
-              </a>
-            </li>
+
             <li className="nav-item dropdown">
               <a
                 className={`nav-link dropdown-toggle ${
@@ -67,7 +59,7 @@ function Navbar() {
                 <li>
                   <a
                     className={`dropdown-item ${sticky ? "fs-6" : "fs-5"}`}
-                    href="#"
+                    href="https://auspexmedix.vercel.app"
                   >
                     VocalLens
                   </a>
@@ -88,7 +80,7 @@ function Navbar() {
                     className={`dropdown-item ${sticky ? "fs-6" : "fs-5"}`}
                     href="#"
                   >
-                    Under Development
+                    Ongoing
                   </a>
                 </li>
               </ul>
